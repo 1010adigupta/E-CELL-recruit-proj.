@@ -1,0 +1,42 @@
+body {
+    font-family: Verdana, sans-serif;
+}
+
+.month {
+
+    width: 100%;
+    padding: 20px;
+    background: #1abc9c;
+    text-align: center;
+    position: relative;
+}
+
+
+
+
+
+/* Previous button inside month header */
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+
+
+
+/* Days (1-31) */
+.days {
+    padding: 10px;
+    background: #eee;
+    border: 5px, solid, black;
+}
+.table_name{
+    table-layout: fixed;
+    width: 100%;
+}
